@@ -1,0 +1,15 @@
+[theme]
+# El color principal (Botones, barras de progreso y acentos) - Un Azul/Celeste brillante
+primaryColor = "#3B82F6"
+
+# El fondo principal de la pantalla - Azul marino casi negro (Noche profundo)
+backgroundColor = "#0F172A"
+
+# El fondo de la barra lateral (Sidebar) - Un azul marino ligeramente más claro para dar profundidad
+secondaryBackgroundColor = "#1E293B"
+
+# El color del texto - Blanco ahumado para que resalte perfecto sin lastimar la vista
+textColor = "#F8FAFC"
+
+# Estilo de letra
+font = "sans serif"
