@@ -209,7 +209,7 @@ try:
             cols = st.columns(len(columnas_kanban))
             for i, estado in enumerate(columnas_kanban):
                 with cols[i]:
-                    st.markdown(f"<h3 style='text-align: center; color: #1E90FF;'>📂 {estado}</h3>", unsafe_allow_html=True)
+                    st.markdown(f"<h3 style='text-align: center; color: #1E90FF;'>{estado}</h3>", unsafe_allow_html=True)
                     st.markdown("---")
                     
                     df_estado = df_prioridades_filtrado[df_prioridades_filtrado[nom_estatus] == estado]
